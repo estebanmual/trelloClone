@@ -7,6 +7,7 @@ import {useActionSheet} from "@expo/react-native-action-sheet";
 import {BottomSheetBackdrop, BottomSheetModal, BottomSheetModalProvider} from "@gorhom/bottom-sheet";
 import {useCallback, useMemo, useRef, useState} from "react";
 import AuthModal from "@/components/AuthModal";
+import {useSupabase} from "@/context/SupabaseContext";
 
 export default function Index() {
     const {top} = useSafeAreaInsets();
